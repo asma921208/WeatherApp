@@ -14812,6 +14812,11 @@ var Examples = function Examples(props) {
     'div',
     null,
     React.createElement(
+      'h3',
+      null,
+      'Examples'
+    ),
+    React.createElement(
       'p',
       null,
       'Welcome To Examples Page'
