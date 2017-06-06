@@ -14809,9 +14809,13 @@ var React = __webpack_require__(5);
 
 var Examples = function Examples(props) {
   return React.createElement(
-    'h3',
+    'div',
     null,
-    'Examples Page'
+    React.createElement(
+      'p',
+      null,
+      'Welcome To Examples Page'
+    )
   );
 };
 
